@@ -5,23 +5,9 @@ const ArtCard = ({ data, artKey, isLight }) => {
     const description = data.properties.Description.rich_text[0].plain_text;
     const portfolioUrl = data.properties.Portfolio.url;
     const imageUrl = data.cover.file?.url || data.cover.external.url;
-
-    let burgerColor;
-    let textColor;
-    let shadowColor;
-
-    if (isLight) {
-        burgerColor = "bg-[#2e313c]";
-        textColor = "text-[#2e313c]";
-        shadowColor = "shadow-[0_4px_6px_-1px_rgb(92,122,214)]";
-    } else {
-        burgerColor = "bg-[#fef8f1c7]";
-        textColor = "text-[#fef8f1c7]";
-    }
-
     const tags = data.properties.Tags.multi_select;
 
-    // svg icon link https://flowbite.com/icons/
+    let textColor = isLight ? "text-[#2e313c]" : "text-[#fef8f1c7]";
 
     return (
         <>

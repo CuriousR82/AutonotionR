@@ -8,28 +8,13 @@ const ProjectCard = ({ data, projectKey, isLight }) => {
     const description = data.properties.Description.rich_text[0].plain_text;
     const githubUrl = data.properties.Github.url;
     const imageUrl = data.cover.file?.url || data.cover.external.url;
+    const tags = data.properties.Tags.multi_select;
 
-    let burgerColor;
-    let textColor;
-    let shadowColor;
-
-    if (isLight) {
-        burgerColor = "bg-[#2e313c]";
-        textColor = "text-[#2e313c]";
-        shadowColor = "shadow-[0_4px_6px_-1px_rgb(92,122,214)]";
-    } else {
-        burgerColor = "bg-[#fef8f1c7]";
-        textColor = "text-[#fef8f1c7]";
-    }
+    let textColor = isLight ? "text-[#2e313c]" : "text-[#fef8f1c7]";
 
     function toLogo(str) {
         return strToLogo(str, isLight); 
     }
-
-    const tags = data.properties.Tags.multi_select;
-    // console.log(tags)
-
-    // svg icon link https://flowbite.com/icons/
 
     return (
         <>
@@ -44,12 +29,10 @@ const ProjectCard = ({ data, projectKey, isLight }) => {
                         <div className="flex items-center justify-between flex-wrap ">
                             <div className={"flex flex-wrap flex-row gap-1 items-center"}>
                                 {tags.map((tag) => <p key={tag.id} className={`py-px rounded text-sm text-white`}>{toLogo(tag.name)}</p>)}
-                                {/* {console.log("tag rendering")} */}
                             </div>
 
                             <div className='flex flex-row items-center'>
                                 <span className="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 border-r-2 border-gray-200">
-
                                     <a className={""} href={`${githubUrl}`} target='_blank'>
                                         <GithubLogo className={`w-[22px] h-[22px] ${textColor} hover:text-[#5c7ad6] transition`} />
                                     </a>

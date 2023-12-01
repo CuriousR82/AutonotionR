@@ -13,16 +13,7 @@ const Header = ({ toggleMode, isLight, personalData }) => {
     const [mode, setMode] = useState('light');
     const [isOpen, setOpen] = useState(false)
 
-    let burgerColor;
-    let textColor;
-
-    if (isLight) {
-        burgerColor = "bg-[#2e313c]";
-        textColor = "text-[#2e313c]";
-    } else {
-        burgerColor = "bg-[#fef8f1c7]";
-        textColor = "text-[#fef8f1c7]";
-    }
+    let textColor = isLight ? "text-[#2e313c]" : "text-[#fef8f1c7]";
 
     const resumePdf = personalData[0].properties.Resume.files[0].file.url;
     const githubUrl = personalData[0].properties.Github.url;
@@ -47,7 +38,6 @@ const Header = ({ toggleMode, isLight, personalData }) => {
             }, 0);
         }
     };
-
 
     return (
         <>

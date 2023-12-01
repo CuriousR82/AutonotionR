@@ -16,7 +16,6 @@ export default function Footer({ isLight, personalData }) {
 
         <>
             <footer className={`${textColor} body-font`}>
-
                 <div className={`footer-transition ${bgColour}`}>
                     <div className="container px-10 sm:px-14 py-6 sm:items-end flex flex-col gap-2 sm:gap-0 justify-start sm:flex-row sm:justify-between">
                         <a className="flex title-font font-medium items-center ">

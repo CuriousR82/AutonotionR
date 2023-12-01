@@ -8,7 +8,6 @@ import { NavLink } from "react-router-dom";
 
 
 const Home = ({ isLight, personalData, artData, projectData, expData }) => {
-    // console.log(`home: ${personalData[0].properties.Description1.rich_text[0].plain_text}`)
     return <>
         <div id="home-section" className="pb-40 fade-on-load flex min-h-screen flex-col items-center justify-center text-gray-600 body-font">
             <div className="container mx-auto flex gap-0 sm:gap-20 flex-col mt-28 sm:mt-56 ">
@@ -17,7 +16,6 @@ const Home = ({ isLight, personalData, artData, projectData, expData }) => {
                 <section id="experience-section" className="pt-32">
                 <ExperienceSection isLight={isLight} expData={expData} />
                 </section>
-                
 
                 <section id="project-section" className="pt-32">
                     <div className="flex flex-row justify-between items-center px-10 sm:px-14">

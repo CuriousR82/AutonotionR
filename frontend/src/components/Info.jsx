@@ -13,16 +13,7 @@ const Info = ({ isLight, personalData }) => {
     const resumePdf = personalData[0].properties.Resume.files[0].file.url;
     const email = personalData[0].properties.Email.email;
 
-    let burgerColor;
-    let textColor;
-
-    if (isLight) {
-        burgerColor = "bg-[#2e313c]";
-        textColor = "text-[#2e313c]";
-    } else {
-        burgerColor = "bg-[#fef8f1c7]";
-        textColor = "text-[#fef8f1c7]";
-    }
+    let textColor = isLight ? "text-[#2e313c]" : "text-[#fef8f1c7]";
 
     // nice point colour : bg-[#5c7ad6] button colour
 

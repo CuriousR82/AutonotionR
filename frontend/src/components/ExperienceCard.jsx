@@ -28,12 +28,7 @@ const ExperienceCard = ({ isLight, exp }) => {
     }
 
     let formattedDate = (startDate == endDate ? "Incoming" : formatDate(startDate, endDate));
-    // if (startDate == endDate) { formattedDate = "Incoming"; }
-    // else { formattedDate = formatDate(startDate, endDate); }
-
-
     let textColor = isLight ? "text-[#2e313c]" : "text-[#fef8f1c7]";
-
 
     return (
         <>
