@@ -1,0 +1,45 @@
+* {
+    /* font-family: "Poppins" */
+}
+
+
+
+.lightMode {
+    background-color: white;
+    /* color: #fef8f1c7; */
+    /* color: black; */
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.darkMode {
+    background-color: rgb(41, 41, 41);
+    /* color: white; */
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.footer-transition {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.frame {
+    /* margin: 0px 150px 0px 150px; */
+}
+
+.fade-on-load {
+    animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
+.header-class {
+    position: fixed !important;
+    width: 100%;
+}
