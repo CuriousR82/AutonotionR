@@ -1,47 +1,30 @@
 # AutonotionR
 
-AutonotionR is an open-source project that allows users to create an automated website with Notion workspace integration.
+AutonotionR simplifies website management by seamlessly integrating with **Notion workspaces**. This **open-source** project enables users to effortlessly update their websites simply by making changes in Notion.
 
-This project allows users to update their website just by updating their Notion, offering a convienient automatic content update on any of your devices. 
+Enjoy the convenience of **automatic content updates**, ensuring your website stays current **across all your devices**. AutonotionR streamlines the process, making web management a breeze without unnecessary complexities.
+
+Discover a straightforward and efficient way to keep your website content up-to-date with AutonotionR.
 
 ## Preview
-This is the website preview:
-To be added ...
-<!-- <div markdown="1" style="display: flex; flex-direction: column; width: 100%; box-sizing: border-box;">
-    <div markdown="1" style="display: flex; flex-direction: row; gap: 5px;" width="100%">
-        <div markdown="1" style="display: flex; flex-direction: column; gap: 5px;">
-            <img src="./readme_pics/1.png" width="50%">
-            <img src="./readme_pics/2.png" width="50%">
-        </div>
-        <div markdown="1" style="display: flex; flex-direction: column; gap: 5px;">
-            <img src="./readme_pics/3.png" width="50%">
-            <img src="./readme_pics/4.png" width="50%">
-        </div>
-    </div>
-    <div markdown="1" style="display: flex;">
-        <img src="./readme_pics/5.png" width="25%">
-        <img src="./readme_pics/6.png" width="25%">
-        <img src="./readme_pics/7.png" width="25%">
-        <img src="./readme_pics/8.png" width="25%">
-    </div>
-</div>
-</br> -->
+![img2](./readme_pics/1.png) 
+![img2](./readme_pics/2.png)
 
-# AutonotionR Documentation
+# Documentation
 
 ## Table of Contents
 - [AutonotionR](#autonotionr)
   - [Preview](#preview)
-- [AutonotionR Documentation](#autonotionr-documentation)
+- [Documentation](#documentation)
   - [Table of Contents](#table-of-contents)
   - [Introduction ](#introduction-)
-  - [Database Setup ](#database-setup-)
-    - [Database Template ](#database-template-)
-    - [Filling in Database Key and IDs ](#filling-in-database-key-and-ids-)
   - [Project Initialization / Forking the Repository ](#project-initialization--forking-the-repository-)
     - [Installing Dependencies ](#installing-dependencies-)
     - [Connecting the Database ](#connecting-the-database-)
     - [Running the Project ](#running-the-project-)
+  - [Database Setup ](#database-setup-)
+    - [Database Template ](#database-template-)
+    - [Filling in Database Key and IDs ](#filling-in-database-key-and-ids-)
   - [Code Structure ](#code-structure-)
     - [Data Fetching in `index.js` ](#data-fetching-in-indexjs-)
     - [App Structure in `App.jsx` ](#app-structure-in-appjsx-)
@@ -53,19 +36,6 @@ To be added ...
 ## Introduction <a name="introduction"></a>
 
 AutonotionR is an open-source project that enables users to create automated websites seamlessly integrated with Notion workspaces. This documentation provides a step-by-step guide to set up and customize AutonotionR for your needs.
-
-## Database Setup <a name="database-setup"></a>
-
-### Database Template <a name="database-template"></a>
-
-To get started, use the provided [Database Template](https://shocking-evening-5f4.notion.site/AutonotionR-Database-Template-9aaeb395dcc8414b9993b55c5183f3e5) 📄 to structure your Notion workspace. This template includes essential fields required for integration.
-// database screenshots here
-
-### Filling in Database Key and IDs <a name="filling-in-database-key-ids"></a>
-
-In your project, create a `.env` file inside the `AutonotionR/server` directory with your Notion integration credentials and database key IDs. Refer to the [Build your first integration](https://developers.notion.com/docs/create-a-notion-integration) page by Notion for detailed instructions.
-For your reference, the API key in the project is named `REACT_APP_NOTION_API_KEY`, and the database IDs are named `REACT_APP_<database name>_DATABASE_ID`.
-
 
 ## Project Initialization / Forking the Repository <a name="project-initialization"></a>
 To initialize the project, begin by forking the AutonotionR repository to your account. Please fork the repository by clicking on the `Fork` button at the top of this repository home, and clone the fork of your repository (`<repo-name>`) with `git clone https://github.com/<your-username>/<repo-name>.git`.
@@ -82,6 +52,20 @@ Follow the instructions in the [Database Setup](#database-setup) section to conn
 
 Execute `nodemon index.js` in the `<repo-name>/server` directory to start the server for the backend.
 Execute `npm start` in the `<repo-name>/frontend` directory to start the server for the frontend.
+
+## Database Setup <a name="database-setup"></a>
+
+### Database Template <a name="database-template"></a>
+
+To get started, use the provided [Database Template](https://shocking-evening-5f4.notion.site/AutonotionR-Database-Template-9aaeb395dcc8414b9993b55c5183f3e5) 📄 to structure your Notion workspace. This template includes essential fields required for integration.
+
+// database screenshots here
+
+### Filling in Database Key and IDs <a name="filling-in-database-key-ids"></a>
+
+In your project, create a `.env` file inside the `AutonotionR/server` directory with your Notion integration credentials and database key IDs. Refer to the [Build your first integration](https://developers.notion.com/docs/create-a-notion-integration) page by Notion for detailed instructions.
+For your reference, the API key in the project is named `REACT_APP_NOTION_API_KEY`, and the database IDs are named `REACT_APP_<database name>_DATABASE_ID`.
+
 
 ## Code Structure <a name="code-structure"></a>
 
