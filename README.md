@@ -8,6 +8,7 @@ Discover a straightforward and efficient way to keep your website content up-to-
 
 ## Preview
 ![img2](./readme_pics/1.png) 
+
 ![img2](./readme_pics/2.png)
 
 # Documentation
