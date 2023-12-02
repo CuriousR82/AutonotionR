@@ -153,7 +153,7 @@ export default App;
 
 ### Customizing Logo <a name="customizing-logo"></a>
 
-Modify the `logo.utils` file in the components folder and add your desired logos to the logos folder to personalize the appearance of your AutonotionR website.
+Modify `logoUtils.jsx` in the components folder and add your desired logos to the logos folder to personalize the appearance of your AutonotionR website.
 
 `logoUtils.jsx` structure:
 ```javascript
