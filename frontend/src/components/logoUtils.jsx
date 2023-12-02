@@ -26,71 +26,69 @@ import { ReactComponent as TailwindLight } from "../logos/tailwind-light.svg";
 import { ReactComponent as TailwindDark } from "../logos/tailwind-dark.svg";
 
 function strToLogo(str, isLight) {
-        // console.log("srttologo called")
-        if (isLight) {
-            switch (str) {
-                case "NotionAPI":
-                    return <NotionLight className={"w-6 h-6"} />
-                case "JavaScript":
-                    return <JSLight className={"w-6 h-6"} />
-                case "Three.js":
-                    return <ThreeLight className={"w-6 h-6"} />
-                case "React.js":
-                    return <ReactLight className={"w-6 h-6"} />
-                case "MongoDB":
-                    return <MongoLight className={"w-6 h-6"} />
-                case "Node.js":
-                    return <NodeLight className={"w-[26px] h-[26px]"} />
-                case "Firebase":
-                    return <FirebaseLight className={"w-6 h-6"} />
-                case "Swift":
-                    return <SwiftLight className={"w-[22px] h-[22px]"} />
-                case "Go":
-                    return <GoLight className={"w-8 h-8"} />
-                case "Express":
-                    return <ExpressLight className={"w-5 h-5"} />
-                case "Python":
-                    return <PythonLight className={"w-[20px] h-[20px]"} />
-                case "C++":
-                    return <CPPLight className={"w-[26px] h-[26px]"} />
-                case "TailwindCSS":
-                    return <TailwindLight className={"w-[26px] h-[26px]"} />
-                default:
-                    return <></>
-            }
-        } else {
-            switch (str) {
-                case "NotionAPI":
-                    return <NotionDark className={"w-6 h-6"} />
-                case "JavaScript":
-                    return <JSDark className={"w-6 h-6"} />
-                case "Three.js":
-                    return <ThreeDark className={"w-6 h-6"} />
-                case "React.js":
-                    return <ReactDark className={"w-6 h-6"} />
-                case "MongoDB":
-                    return <MongoDark className={"w-6 h-6"} />
-                case "Node.js":
-                    return <NodeDark className={"w-[26px] h-[26px]"} />
-                case "Firebase":
-                    return <FirebaseDark className={"w-6 h-6"} />
-                case "Swift":
-                    return <SwiftDark className={"w-[22px] h-[22px]"} />
-                case "Go":
-                    return <GoDark className={"w-8 h-8"} />
-                case "Express":
-                    return <ExpressDark className={"w-5 h-5"} />
-                case "Python":
-                    return <PythonDark className={"w-[20px] h-[20px]"} />
-                case "C++":
-                    return <CPPDark className={"w-[26px] h-[26px]"} />
-                case "TailwindCSS":
-                    return <TailwindDark className={"w-[26px] h-[26px]"} />
-                default:
-                    return <></>
-            }
+    if (isLight) {
+        switch (str) {
+            case "NotionAPI":
+                return <NotionLight className={"w-6 h-6"} />
+            case "JavaScript":
+                return <JSLight className={"w-6 h-6"} />
+            case "Three.js":
+                return <ThreeLight className={"w-6 h-6"} />
+            case "React.js":
+                return <ReactLight className={"w-6 h-6"} />
+            case "MongoDB":
+                return <MongoLight className={"w-6 h-6"} />
+            case "Node.js":
+                return <NodeLight className={"w-[26px] h-[26px]"} />
+            case "Firebase":
+                return <FirebaseLight className={"w-6 h-6"} />
+            case "Swift":
+                return <SwiftLight className={"w-[22px] h-[22px]"} />
+            case "Go":
+                return <GoLight className={"w-8 h-8"} />
+            case "Express":
+                return <ExpressLight className={"w-5 h-5"} />
+            case "Python":
+                return <PythonLight className={"w-[20px] h-[20px]"} />
+            case "C++":
+                return <CPPLight className={"w-[26px] h-[26px]"} />
+            case "TailwindCSS":
+                return <TailwindLight className={"w-[26px] h-[26px]"} />
+            default:
+                return <></>
         }
-    
+    } else {
+        switch (str) {
+            case "NotionAPI":
+                return <NotionDark className={"w-6 h-6"} />
+            case "JavaScript":
+                return <JSDark className={"w-6 h-6"} />
+            case "Three.js":
+                return <ThreeDark className={"w-6 h-6"} />
+            case "React.js":
+                return <ReactDark className={"w-6 h-6"} />
+            case "MongoDB":
+                return <MongoDark className={"w-6 h-6"} />
+            case "Node.js":
+                return <NodeDark className={"w-[26px] h-[26px]"} />
+            case "Firebase":
+                return <FirebaseDark className={"w-6 h-6"} />
+            case "Swift":
+                return <SwiftDark className={"w-[22px] h-[22px]"} />
+            case "Go":
+                return <GoDark className={"w-8 h-8"} />
+            case "Express":
+                return <ExpressDark className={"w-5 h-5"} />
+            case "Python":
+                return <PythonDark className={"w-[20px] h-[20px]"} />
+            case "C++":
+                return <CPPDark className={"w-[26px] h-[26px]"} />
+            case "TailwindCSS":
+                return <TailwindDark className={"w-[26px] h-[26px]"} />
+            default:
+                return <></>
+        }
+    }
 }
 
 export default strToLogo;
