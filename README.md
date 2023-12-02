@@ -1,5 +1,5 @@
 <div align="left">
-    <a src="https://www.curiousr.ca/"><h1>AutonotionR</h1></a>
+    <h1><a src="https://www.curiousr.ca/">AutonotionR</a></h1>
     <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/>
     <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
     <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
