@@ -1,4 +1,4 @@
-# AutonotionR
+# [AutonotionR](https://www.curiousr.ca/)
 
 AutonotionR simplifies website management by seamlessly integrating with **Notion workspaces**. This **open-source** project enables users to effortlessly update their websites simply by making changes in Notion.
 
