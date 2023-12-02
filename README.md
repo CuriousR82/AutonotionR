@@ -59,6 +59,7 @@ Execute `npm start` in the `<repo-name>/frontend` directory to start the server 
 ### Database Template <a name="database-template"></a>
 
 To get started, use the provided [Database Template](https://shocking-evening-5f4.notion.site/AutonotionR-Database-Template-9aaeb395dcc8414b9993b55c5183f3e5) 📄 to structure your Notion workspace. This template includes essential fields required for integration.
+![img3](./readme_pics/3.png)
 
 // database screenshots here
 
