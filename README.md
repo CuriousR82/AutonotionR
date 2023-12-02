@@ -1,5 +1,6 @@
 <div align="left">
     <h1><a src="https://www.curiousr.ca/">AutonotionR</a></h1>
+    # [AutonotionR](https://www.curiousr.ca/)
     <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/>
     <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
     <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
@@ -9,6 +10,14 @@
     <img src="https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge">
     </br></br>
 </div>
+# [AutonotionR](https://www.curiousr.ca/)
+    <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white"/>
+    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+    <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB">
+    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
+    <img src="https://img.shields.io/badge/License-Apache_2.0-D22128?style=for-the-badge">
 
 AutonotionR simplifies website management by seamlessly integrating with **Notion workspaces**. This **open-source** project enables users to effortlessly update their websites simply by making changes in Notion.
 
